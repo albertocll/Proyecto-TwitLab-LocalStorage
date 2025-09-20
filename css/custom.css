@@ -1,0 +1,77 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f7f9fb;
+    color: #333;
+}
+
+h1, h2 {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+#contenido {
+    margin-top: 40px;
+}
+
+/* Botón eliminar */
+.borrar-tweet {
+    float: right;
+    cursor: pointer;
+    color: #ff4d4d;
+    font-weight: bold;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.borrar-tweet:hover {
+    color: #cc0000;
+}
+
+/* Mensajes de feedback */
+.error, .success {
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    max-width: 400px;
+    margin: 20px auto;
+    color: white;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+.error {
+    background-color: #e63946;
+}
+.success {
+    background-color: #06d6a0;
+}
+
+/* Tweets */
+#lista-tweets {
+    list-style: none;
+    padding: 0;
+}
+#lista-tweets li {
+    background: white;
+    margin-bottom: 12px;
+    padding: 12px 16px;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+    position: relative;
+}
+#lista-tweets li p {
+    margin: 0 0 6px 0;
+    font-size: 15px;
+}
+#lista-tweets li .fecha {
+    font-size: 12px;
+    color: #777;
+}
+
+/* Contador */
+#contador {
+    display: block;
+    margin: 6px 0 12px;
+    font-size: 13px;
+    color: #555;
+}
