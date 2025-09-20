@@ -93,13 +93,10 @@ O usa Live Server en VS Code
 
 💡 Cómo Usar la Aplicación
 
-Escribe un tweet en el campo de texto
-
-Haz clic en "Publicar" para agregar el tweet a la lista
-
-Visualiza tus tweets en la lista "Mis tweets"
-
-Recarga la página para ver que los tweets persisten gracias al Local Storage
+- Escribe un tweet en el campo de texto
+- Haz clic en "Agregar" para añadir el tweet a la lista
+- Visualiza tus tweets en la lista "Mis tweets"
+- Recarga la página para ver que los tweets persisten gracias al Local Storage
 
 🎓 Objetivos de Aprendizaje
 
@@ -117,10 +114,13 @@ Este proyecto es de uso personal y educativo, basado en un ejercicio del curso d
 
 👤 Autor
 
-Alberto – GitHub
+Alberto – (https://github.com/albertocll)
 
 ⭐ ¡Dale una estrella al proyecto si te gustó! ⭐
 
-📸 Preview
-
 🌐 Probar la Aplicación
+
+https://twitlab.netlify.app/
+
+<img width="1435" height="511" alt="image" src="https://github.com/user-attachments/assets/68b7d7bd-00f0-498e-b63e-ab0c02cbe5df" />
+
